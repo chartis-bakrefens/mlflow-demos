@@ -1,0 +1,27 @@
+[project]
+name = "mlflow-demos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ben Akre-Fens", email = "bakrefens@chartis.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "ipywidgets>=8.1.9",
+    "mlflow>=3.17.2",
+    "numpy>=2.4.6",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "torch>=2.15.0",
+    "tqdm>=4.70.1",
+    "xgboost>=3.2.0",
+]
+
+[project.scripts]
+mlflow-demos = "mlflow_demos:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
