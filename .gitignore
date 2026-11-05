@@ -11,3 +11,6 @@ wheels/
 
 # mlflow storage
 mlruns
+
+# downloaded datasets
+data/
